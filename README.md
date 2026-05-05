@@ -16,7 +16,8 @@
 - **ワンクリック起動** — ツールバーアイコンを押すだけ
 - **開くURLを自由に設定** — ChatGPT、Claude、Gmail、任意のURL
 - **左右どちらでも** — 設定URLを左に開くか右に開くか選択可能
-- **比率調整** — 50:50 / 60:40 / 65:35 / 70:30
+- **比率調整** — 現在ウィンドウ 50%〜75%、5%刻みのスライダー
+- **隙間補正** — ウィンドウ枠や影による隙間を重ねて調整可能
 - **マルチモニタ対応** — `system.display` APIでタスクバーやDockを避けて配置
 - **プライバシー重視** — ページ内容・DOM・閲覧履歴にアクセスしない
 
@@ -41,7 +42,8 @@
 |---------|--------|--------|
 | Default URL | `https://chatgpt.com/` | 任意のURL |
 | Open configured URL | Right | Left / Right |
-| Layout ratio | 60:40 | 50:50 / 60:40 / 65:35 / 70:30 |
+| Layout ratio | 60:40 | 50:50〜75:25（5%刻みスライダー） |
+| Window overlap | 8px | 0〜20px（スライダー） |
 
 ## 権限
 
@@ -104,7 +106,8 @@ Split-screen extensions often require broad permissions like reading your tabs, 
 - **One-click launch** — Click the toolbar icon
 - **Configurable URL** — ChatGPT, Claude, Gmail, or any URL
 - **Left or right** — Choose which side the target URL opens on
-- **Adjustable ratio** — 50:50 / 60:40 / 65:35 / 70:30
+- **Adjustable ratio** — Current window 50%–75% in 5% steps
+- **Overlap compensation** — Adjust window overlap to hide gaps from borders and shadows
 - **Multi-monitor aware** — Uses `system.display` API to avoid taskbars and docks
 - **Privacy-first** — Never reads page content, DOM, or browsing history
 
@@ -129,7 +132,8 @@ Right-click the extension icon → **Options** to configure.
 |---------|---------|---------|
 | Default URL | `https://chatgpt.com/` | Any URL |
 | Open configured URL | Right | Left / Right |
-| Layout ratio | 60:40 | 50:50 / 60:40 / 65:35 / 70:30 |
+| Layout ratio | 60:40 | 50:50–75:25 (5% step slider) |
+| Window overlap | 8px | 0–20px (slider) |
 
 ## Permissions
 
