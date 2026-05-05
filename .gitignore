@@ -1,0 +1,19 @@
+# Backup files
+SPEC.md.bak
+
+# Release folder (generated from source)
+release/
+
+# Claude Code
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
