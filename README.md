@@ -31,13 +31,6 @@
 4. 右上の**デベロッパーモード**を ON
 5. 「パッケージ化されていない拡張機能を読み込む」→ 解凍したフォルダを選択
 
-### リポジトリから
-
-1. このリポジトリをクローン
-2. Chrome で `chrome://extensions` を開く
-3. 右上の**デベロッパーモード**を ON
-4. 「パッケージ化されていない拡張機能を読み込む」→ クローンしたルートフォルダを選択
-
 ## 使い方
 
 1. Chromeツールバーの **Window Split Launcher** アイコンをクリック
@@ -82,20 +75,14 @@ options.html         — 設定ページ
 options.js           — 設定ロジック
 options.css          — 設定ページのスタイル
 icons/               — アイコン (16, 32, 48, 128)
-release/             — Chrome読み込み用（このフォルダを指定）
+release/             — リリース ZIP 生成用（.gitignore）
 ```
 
 ## 開発
 
-```bash
-# Chromeに読み込む
-1. chrome://extensions を開く
-2. デベロッパーモードをON
-3. 「パッケージ化されていない拡張機能を読み込む」→ ルートフォルダを選択
-
-# 変更を加えたあと
-chrome://extensions で拡張カードの更新アイコンをクリック
-```
+1. リポジトリをクローン
+2. `chrome://extensions` → デベロッパーモード ON → 「パッケージ化されていない拡張機能を読み込む」でルートフォルダを選択
+3. 変更後は拡張カードの更新アイコンをクリック
 
 ## ライセンス
 
@@ -130,13 +117,6 @@ Split-screen extensions often require broad permissions like reading your tabs, 
 3. Open `chrome://extensions` in Chrome
 4. Enable **Developer mode** (top right toggle)
 5. Click **Load unpacked** and select the unzipped folder
-
-### From Repository
-
-1. Clone this repository
-2. Open `chrome://extensions` in Chrome
-3. Enable **Developer mode** (top right toggle)
-4. Click **Load unpacked** and select the cloned root folder
 
 ## Usage
 
@@ -182,20 +162,14 @@ options.html         — Settings page
 options.js           — Settings logic
 options.css          — Settings page styles
 icons/               — Extension icons (16, 32, 48, 128)
-release/             — Loadable extension (point Chrome here)
+release/             — Release ZIP build target (.gitignore)
 ```
 
 ## Development
 
-```bash
-# Load into Chrome
-1. Open chrome://extensions
-2. Enable Developer mode
-3. Click "Load unpacked" → select the root folder
-
-# After changes
-Click the refresh icon on the extension card in chrome://extensions
-```
+1. Clone the repository
+2. Open `chrome://extensions` → enable Developer mode → "Load unpacked" → select the root folder
+3. After changes, click the refresh icon on the extension card
 
 ## License
 
