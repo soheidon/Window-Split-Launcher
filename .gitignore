@@ -1,6 +1,9 @@
 # Backup files
 SPEC.md.bak
 
+# Release zip
+*.zip
+
 # Release folder (generated from source)
 release/
 
