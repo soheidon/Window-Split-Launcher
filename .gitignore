@@ -4,6 +4,9 @@ SPEC.md.bak
 # Release zip
 *.zip
 
+# Release folder (generated from source)
+release/
+
 # Claude Code
 .claude/
 

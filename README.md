@@ -36,7 +36,7 @@
 1. このリポジトリをクローン
 2. Chrome で `chrome://extensions` を開く
 3. 右上の**デベロッパーモード**を ON
-4. 「パッケージ化されていない拡張機能を読み込む」→ `release/` フォルダを選択
+4. 「パッケージ化されていない拡張機能を読み込む」→ クローンしたルートフォルダを選択
 
 ## 使い方
 
@@ -91,7 +91,7 @@ release/             — Chrome読み込み用（このフォルダを指定）
 # Chromeに読み込む
 1. chrome://extensions を開く
 2. デベロッパーモードをON
-3. 「パッケージ化されていない拡張機能を読み込む」→ release/ を選択
+3. 「パッケージ化されていない拡張機能を読み込む」→ ルートフォルダを選択
 
 # 変更を加えたあと
 chrome://extensions で拡張カードの更新アイコンをクリック
@@ -136,7 +136,7 @@ Split-screen extensions often require broad permissions like reading your tabs, 
 1. Clone this repository
 2. Open `chrome://extensions` in Chrome
 3. Enable **Developer mode** (top right toggle)
-4. Click **Load unpacked** and select the `release/` folder
+4. Click **Load unpacked** and select the cloned root folder
 
 ## Usage
 
@@ -191,7 +191,7 @@ release/             — Loadable extension (point Chrome here)
 # Load into Chrome
 1. Open chrome://extensions
 2. Enable Developer mode
-3. Click "Load unpacked" → select release/
+3. Click "Load unpacked" → select the root folder
 
 # After changes
 Click the refresh icon on the extension card in chrome://extensions
