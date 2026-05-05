@@ -21,11 +21,21 @@
 - **マルチモニタ対応** — `system.display` APIでタスクバーやDockを避けて配置
 - **プライバシー重視** — ページ内容・DOM・閲覧履歴にアクセスしない
 
-## インストール（デベロッパーモード）
+## インストール
 
-1. このリポジトリをクローンまたはダウンロード
+### リリース ZIP から
+
+1. [Releases](https://github.com/soheidon/Window-Split-Launcher/releases) から最新の ZIP をダウンロード
+2. ZIP を任意の場所に解凍
+3. Chrome で `chrome://extensions` を開く
+4. 右上の**デベロッパーモード**を ON
+5. 「パッケージ化されていない拡張機能を読み込む」→ 解凍したフォルダを選択
+
+### リポジトリから
+
+1. このリポジトリをクローン
 2. Chrome で `chrome://extensions` を開く
-3. 右上の**デベロッパーモード**をON
+3. 右上の**デベロッパーモード**を ON
 4. 「パッケージ化されていない拡張機能を読み込む」→ `release/` フォルダを選択
 
 ## 使い方
@@ -111,9 +121,19 @@ Split-screen extensions often require broad permissions like reading your tabs, 
 - **Multi-monitor aware** — Uses `system.display` API to avoid taskbars and docks
 - **Privacy-first** — Never reads page content, DOM, or browsing history
 
-## Installation (Developer Mode)
+## Installation
 
-1. Clone or download this repository
+### From Release ZIP
+
+1. Download the latest ZIP from [Releases](https://github.com/soheidon/Window-Split-Launcher/releases)
+2. Unzip to any folder
+3. Open `chrome://extensions` in Chrome
+4. Enable **Developer mode** (top right toggle)
+5. Click **Load unpacked** and select the unzipped folder
+
+### From Repository
+
+1. Clone this repository
 2. Open `chrome://extensions` in Chrome
 3. Enable **Developer mode** (top right toggle)
 4. Click **Load unpacked** and select the `release/` folder
